@@ -1,0 +1,36 @@
+* {
+	image-rendering: pixelated;
+	image-rendering: optimizeSpeed;
+}
+
+body {
+	font-family: MS UI Gothic;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #f0f0f0;
+	padding: 0px;
+	background-color: #506478;
+	margin: 8px;
+}
+
+.main {
+	margin-left: 16px;
+}
+
+.toplink {
+	display: inline-block;
+	width: 90px;
+	height: 27px;
+	border: 1px solid transparent;
+}
+
+.toplink:hover {
+	border: 1px solid white;
+}
+
+.ditch
+{
+	width: 480px;
+	height: 16px;
+	background-image: url("/src/img/ditch.png");
+}
